@@ -11140,7 +11140,7 @@ body {
 }
 
 .about-section img {
-  z-index: 1; /* Ensure the image stays above the gradient */
+  z-index: 0.2; /* Ensure the image stays above the gradient */
 }
 .projects-section {
   padding: 10rem 0;
