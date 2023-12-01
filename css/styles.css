@@ -11124,9 +11124,9 @@ body {
 #.about-section p {
  # margin-bottom: 8rem;
 #}
-
 .about-section {
   position: relative;
+  overflow: hidden;
 }
 
 .about-section::before,
@@ -11148,8 +11148,8 @@ body {
   background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
   z-index: -1;
   content: "";
-  bottom: 0;
 }
+    
 
 
 .projects-section {
