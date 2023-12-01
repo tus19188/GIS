@@ -11135,9 +11135,7 @@ body {
   z-index: 1; /* Adjust the z-index to layer the gradient over the image */
 }
 
-.about-section {
-  position: relative;
-}
+
 
 .projects-section {
   padding: 10rem 0;
