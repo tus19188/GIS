@@ -11080,9 +11080,9 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  color: rgba(245, 245, 245, 0.6); /* Set text color to fully opaque white */
+  color: rgba(245, 245, 245, 0.9); /* Set text color to fully opaque white */
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: rgba(245, 245, 245, 0.6) #;white; # transparent;
+  -webkit-text-fill-color: rgba(245, 245, 245, 0.9) #;white; # transparent;
   -webkit-background-clip: text;
           background-clip: text;
 }
