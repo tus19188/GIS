@@ -11117,15 +11117,39 @@ body {
   }
 }
 
+#.about-section {
+ # padding-top: 10rem;
+  #background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+#}
+#.about-section p {
+ # margin-bottom: 8rem;
+#}
+
 .about-section {
-  padding-top: 10rem;
+  position: relative;
+}
+
+.about-section::before,
+.about-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.about-section::before {
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
-}
-.about-section p {
-  margin-bottom: 8rem;
+  z-index: -1;
 }
 
-
+.about-section::after {
+  background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  z-index: -1;
+  content: "";
+  bottom: 0;
+}
 
 
 .projects-section {
