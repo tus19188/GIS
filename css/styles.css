@@ -11124,6 +11124,20 @@ body {
 .about-section p {
   margin-bottom: 8rem;
 }
+.about-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  z-index: 1; /* Adjust the z-index to layer the gradient over the image */
+}
+
+.about-section {
+  position: relative;
+}
 
 .projects-section {
   padding: 10rem 0;
