@@ -2869,6 +2869,15 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #376360;
 }
 
+#submitButton:disabled,
+#submitButton.disabled,
+#submitButton:disabled:focus {
+  color: var(--bs-btn-disabled-color);
+  background-color: var(--bs-btn-disabled-bg);
+  border-color: var(--bs-btn-disabled-border-color);
+  opacity: var(--bs-btn-disabled-opacity);
+}
+
 .btn-secondary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #7464a1;
