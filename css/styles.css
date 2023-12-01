@@ -11125,34 +11125,24 @@ body {
  # margin-bottom: 8rem;
 #}
 
-
 .about-section {
   position: relative;
-  overflow: hidden;
-}
-
-.about-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 50%;
-  left: 0;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
-  z-index: -1;
 }
 
 .about-section::after {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.9) 25%, #000 100%);
   z-index: -1;
 }
 
+.about-section img {
+  z-index: 1; /* Ensure the image stays above the gradient */
+}
 
 .projects-section {
   padding: 10rem 0;
